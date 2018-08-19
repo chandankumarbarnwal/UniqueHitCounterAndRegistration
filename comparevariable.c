@@ -8,6 +8,7 @@ int main()
 	if(a1<a)
     {
     	printf("Yes\n");
+  Printf("welcome");
     }
     else
     {
