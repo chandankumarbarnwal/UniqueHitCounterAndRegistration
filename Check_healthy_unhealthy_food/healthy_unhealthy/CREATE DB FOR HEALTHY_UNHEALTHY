@@ -1,0 +1,20 @@
+NEED TO CREATE SCHEMA :-
+
+CREATE SCHEMA a_database;
+-----------------------------------------------------------------------
+
+NEED TO CREATE TABLE : -
+
+CREATE TABLE a_database.food(
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+food VARCHAR(100),
+calories INT(100),
+healthy_unhealthy varchar(10),
+);
+--------------------------------------------------------------------
+
+NEED TO INSERT VALUES IN FOOD TABLE:-
+
+INSER INTO a_database.food(food ,calories, healthy_unhealthy) values ('mango', 24, 'u'),('apple', 12, 'h'),('juice', 11, 'h');
+
+
